@@ -1,8 +1,8 @@
 jobs:
-  - name: script-somerandomshit
+  - name: script-somerandomshit1
     type: runSh
     steps:
       - GET: sample-script
-      - GET: triggertest1
+      - GET: triggertest2
       - TASK:
         - script: GET/sample-script/sample-script/echo.sh
