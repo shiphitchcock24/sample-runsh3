@@ -1,5 +1,5 @@
 resources:
-  - name: sample-script
+  - name: sample-script1
     type: gitRepo
     integration: shiphitchcock4-github
     pointer:
