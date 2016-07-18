@@ -1,5 +1,5 @@
 triggers:
-  - name: triggertest2
+  - name: triggertest3
     type: trigger
     pointer:
       counter: 135
