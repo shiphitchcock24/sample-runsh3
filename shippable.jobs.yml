@@ -2,7 +2,7 @@ jobs:
   - name: script-test33
     type: runSh
     steps:
-      - IN: sample-script3
+      - IN: sample-script4
       - IN: triggertest3
       - TASK:
         - script: IN/sample-script/sample-script/echo.sh
