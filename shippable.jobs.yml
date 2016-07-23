@@ -1,8 +1,7 @@
 jobs:
   - name: script-test33
-    type: runSh
+    type: manifest
     steps:
-      - IN: sample-script4
+      - IN: sample-gitreporeso
       - IN: triggertest3
-      - TASK:
-        - script: IN/sample-script/sample-script/echo.sh
+      - TASK: managed
