@@ -1,8 +1,8 @@
 resources:
-  - name: sample-script4
+  - name: sample-gitreporeso
     type: gitRepo
     integration: shiphitchcock4-github
     pointer:
-      sourceName: shiphitchcock4/sample-script
+      sourceName: shiphitchcock4/sampleRub
       branch: master
 
