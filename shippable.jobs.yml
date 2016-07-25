@@ -1,8 +1,8 @@
 jobs:
-  - name: script-runSh
+  - name: runSh3
     type: runSh
     steps:
-      - IN: sample-script
+      - IN: sample-script-3
       - IN: triggertest3
       - TASK:
         - script: IN/sample-script-3/sample-script-3/echo.sh
