@@ -8,6 +8,7 @@ jobs:
         - script: ./IN/sample-script-3/sample-script-3/echo.sh
     on_success:
       - NOTIFY: myEmail2
+      - echo 'infra test '
     on_failure:
       - NOTIFY: mySlack2
   
