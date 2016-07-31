@@ -6,5 +6,9 @@ jobs:
       - IN: triggertest3
       - TASK:
         - script: ./IN/sample-script-3/sample-script-3/echo.sh
+    on_success:
+      - NOTIFY: myEmail2
+    on_failure:
+      - NOTIFY: mySlack2
   
  
