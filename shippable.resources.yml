@@ -5,4 +5,20 @@ resources:
     pointer:
       sourceName: shiphitchcock24/sample-script-3
       branch: master
+      
+  - name: mySlack
+    type: notification
+    integration: ship-slack1
+    pointer:
+      recipients:
+        - "#random"
+      # - "@pvt-channel"
+
+  - name: myEmail1
+    type: notification
+    integration: email
+    pointer:
+      recipients: 
+        -  "sreya@shippable.com"
+
 
