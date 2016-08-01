@@ -1,5 +1,5 @@
 jobs:
-  - name: runSh36
+  - name: runSh37
     type: runSh
     steps:
       - IN: sample-script-3
