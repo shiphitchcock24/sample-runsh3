@@ -2,4 +2,4 @@ triggers:
   - name: triggertest3
     type: trigger
     pointer:
-      counter: 172
+      counter: 173
