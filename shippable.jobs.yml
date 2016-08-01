@@ -11,7 +11,7 @@ jobs:
      # - NOTIFY: myEmail2
       - echo 'infra test'
     on_failure:
-      - echo 'testing failure'
+      - echo 'testing1 failure'
       - echo 'failure runSh'
       - NOTIFY: mySlack2
   
