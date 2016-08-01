@@ -1,5 +1,5 @@
 jobs:
-  - name: runSh35
+  - name: runSh36
     type: runSh
     steps:
       - IN: sample-script-3
@@ -12,6 +12,7 @@ jobs:
       - echo 'infra test'
     on_failure:
       - echo 'testing failure'
+      - echo 'failure runSh'
       - NOTIFY: mySlack2
   
  
