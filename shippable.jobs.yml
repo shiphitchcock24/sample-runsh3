@@ -5,7 +5,7 @@ jobs:
       - IN: sample-script-3
       - IN: triggertest3
       - TASK:
-        - script: ./IN/sample-script-3/sample-script-3/echo.sh
+        - script: ./IN/sample-script-4/sample-script-4/echo.sh
     on_success:
       #- uname -a
       - NOTIFY: myEmail2
