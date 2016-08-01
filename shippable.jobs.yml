@@ -7,10 +7,11 @@ jobs:
       - TASK:
         - script: ./IN/sample-script-3/sample-script-3/echo.sh
     on_success:
-      - uname -a
+      #- uname -a
       - NOTIFY: myEmail2
       - NOTIFY: mySlack2
       - echo 'infra test'
+      - echo 'newtesting success'
     on_failure:
       - echo 'testing1 failure'
       - echo 'failure runSh'
