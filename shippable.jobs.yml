@@ -17,5 +17,14 @@ jobs:
       - echo 'testing1 failure'
       - echo 'failure runSh'
       - NOTIFY: mySlack2
+      
+  - name: runSh39
+    type: runSh
+   # serial: true
+    steps:
+      - IN: sample-script-4
+      - IN: triggertest3
+      - TASK:
+        - script: ./IN/sample-script-4/sample-script-4/echo.sh
   
  
