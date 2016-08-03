@@ -6,6 +6,13 @@ resources:
       sourceName: shiphitchcock24/sample-script-3
       branch: master
       
+  - name: sample-script-4
+    type: gitRepo
+    integration: github
+    pointer:
+      sourceName: shiphitchcock24/sample-script-3
+      branch: master
+      
   - name: mySlack2
     type: notification
     integration: ship-slack1
