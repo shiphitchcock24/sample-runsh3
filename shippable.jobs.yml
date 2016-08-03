@@ -1,7 +1,7 @@
 jobs:
   - name: runShs11
     type: runSh
-    serial: true
+    serial: false
     steps:
       - IN: sample-script-3
       - IN: triggertest3
@@ -20,7 +20,7 @@ jobs:
       
   - name: runShs21
     type: runSh
-    serial: true
+    serial: false
     steps:
       - IN: sample-script-4
       - IN: triggertest3
