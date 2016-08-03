@@ -1,7 +1,7 @@
 jobs:
   - name: runSh38
     type: runSh
-    serial: false
+    serial: true
     steps:
       - IN: sample-script-3
       - IN: triggertest3
