@@ -6,17 +6,17 @@ jobs:
       - IN: sample-script-3
       - IN: triggertest3
       - TASK:
-        - script: ./IN/sample-script-3/gitRepo/echo.sh
+        - script: ./IN/sample-script-6/gitRepo/echo.sh
     on_success:
       #- uname -a
       - NOTIFY: myEmail2
       - NOTIFY: mySlack2
       - script: echo 'infra test'
       - script: echo 'newtesting success'
-    #on_failure:
-     # - echo 'testing1 failure'
-      #- echo 'failure runSh'
-      #- NOTIFY: mySlack2
+    on_failure:
+      - script: echo 'testing1 failure'
+      - script: echo 'failure runSh'
+      - NOTIFY: mySlack2
       
   - name: runShk5
     type: runSh
