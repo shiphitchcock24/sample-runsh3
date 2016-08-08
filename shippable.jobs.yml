@@ -6,25 +6,25 @@ jobs:
       - IN: sample-script-3
       - IN: triggertest3
       - TASK:
-        - script: ./IN/sample-script-4/gitRepo/echo.sh
+        - script: ./IN/sample-script-3/gitRepo/echo.sh
     on_success:
       #- uname -a
       - NOTIFY: myEmail2
       - NOTIFY: mySlack2
-      - script: echo 'infra test'
+      #- script: echo 'infra test'
       #- echo 'newtesting success'
-    on_failure:
-      - echo 'testing1 failure'
-      - echo 'failure runSh'
-      - NOTIFY: mySlack2
+    #on_failure:
+      #- echo 'testing1 failure'
+      #- echo 'failure runSh'
+      #- NOTIFY: mySlack2
       
-  - name: runShk2
+  - name: runShk3
     type: runSh
-    serial: true
+   # serial: true
     steps:
       - IN: sample-script-4
       - IN: triggertest3
       - TASK:
-        - script: ./IN/sample-script-3/gitRepo/echo.sh
+        - script: ./IN/sample-script-4/gitRepo/echo.sh
   
  
