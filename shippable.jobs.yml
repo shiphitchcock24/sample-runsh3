@@ -11,7 +11,7 @@ jobs:
       #- uname -a
       - NOTIFY: myEmail2
       - NOTIFY: mySlack2
-      - script: echo 'infra test'
+      - echo 'infra test'
       - script: echo 'newtesting success'
     on_failure:
       - script: echo 'testing1 failure'
@@ -25,6 +25,6 @@ jobs:
       - IN: sample-script-4
       - IN: triggertest3
       - TASK:
-        - script: ./IN/sample-script-8/gitRepo/echo.sh
+        - script: ./IN/sample-script-4/gitRepo/echo.sh
   
  
