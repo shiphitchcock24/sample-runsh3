@@ -11,7 +11,7 @@ jobs:
       #- uname -a
       - NOTIFY: myEmail2
       - NOTIFY: mySlack2
-      - echo 'infra test'
+      - script: echo 'infra test'
       - echo 'newtesting success'
     on_failure:
       - echo 'testing1 failure'
