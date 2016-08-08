@@ -1,5 +1,5 @@
 jobs:
-  - name: runShk1
+  - name: runShk4
     type: runSh
     serial: true
     steps:
@@ -12,13 +12,13 @@ jobs:
       - NOTIFY: myEmail2
       - NOTIFY: mySlack2
       - script: echo 'infra test'
-      #- echo 'newtesting success'
+      - script: echo 'newtesting success'
     #on_failure:
      # - echo 'testing1 failure'
       #- echo 'failure runSh'
       #- NOTIFY: mySlack2
       
-  - name: runShk3
+  - name: runShk5
     type: runSh
    # serial: true
     steps:
