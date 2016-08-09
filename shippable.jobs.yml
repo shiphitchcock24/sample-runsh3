@@ -1,5 +1,5 @@
 jobs:
-  - name: runShk4
+  - name: runShk7
     type: runSh
     serial: true
     steps:
@@ -18,7 +18,7 @@ jobs:
       - script: echo 'failure runSh'
       - NOTIFY: mySlack2
       
-  - name: runShk5
+  - name: runShk8
     type: runSh
    # serial: true
     steps:
