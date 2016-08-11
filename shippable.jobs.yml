@@ -9,6 +9,8 @@ jobs:
         - script: ./IN/sample-script-3/gitRepo/echo.sh
         - script: pwd
         - script: ls
+        - script: echo "$foo"
+        - script: echo "$n1"
     on_success:
       #- uname -a
       - NOTIFY: myEmail2
