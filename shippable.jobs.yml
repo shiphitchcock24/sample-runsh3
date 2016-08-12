@@ -13,6 +13,7 @@ jobs:
         - script: "node --version"
         - script: echo "$foo"
         - script: echo "$n1"
+        - script: echo "new"
     on_success:
       #- uname -a
       - NOTIFY: myEmail2
