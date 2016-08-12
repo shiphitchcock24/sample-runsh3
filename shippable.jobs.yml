@@ -14,6 +14,7 @@ jobs:
         - script: echo "$foo"
         - script: echo "$n1"
         - script: echo 'new'
+        - script: "sudo apt-get install tree"
     on_success:
       #- uname -a
       - NOTIFY: myEmail2
