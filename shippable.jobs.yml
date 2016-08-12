@@ -10,6 +10,7 @@ jobs:
         - script: ./IN/sample-script-3/gitRepo/echo.sh
         - script: pwd
         - script: ls
+        - script: "node --version"
         - script: echo "$foo"
         - script: echo "$n1"
     on_success:
