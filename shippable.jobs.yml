@@ -4,7 +4,7 @@ jobs:
     serial: true
     steps:
       - IN: sample-script-3
-      - IN: env
+     # - IN: env
       - IN: triggertest3
       - TASK:
         - script: ./IN/sample-script-3/gitRepo/echo.sh
