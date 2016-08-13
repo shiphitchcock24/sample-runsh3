@@ -10,10 +10,13 @@ jobs:
         - script: ./IN/sample-script-3/gitRepo/echo.sh
         - script: pwd
         - script: ls
-        - script: "node --version"
-        - script: echo "$foo"
-        - script: echo "$n1"
-        - script: echo 'new'
+        - script: export FOO=bar
+        - script: export FOO1=bar1
+        - script: echo $FOO && echo $FOO1
+        # - script: "node --version"
+        # - script: echo "$foo"
+        # - script: echo "$n1"
+        # - script: echo 'new'
         #- script: "sudo apt-get install tree"
     on_success:
       #- uname -a
