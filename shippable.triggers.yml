@@ -8,3 +8,8 @@ triggers:
     type: trigger
     version:
       counter: 0
+
+  - name: triggertest5
+    type: trigger
+    version:
+      counter: 0
