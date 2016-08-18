@@ -5,7 +5,7 @@ jobs:
     steps:
       - IN: sample-script-3
      # - IN: env
-      - IN: triggertest3
+      - IN: triggertest4
       - TASK:
         - script: ./IN/sample-script-3/gitRepo/echo.sh
         - script: pwd
@@ -34,7 +34,7 @@ jobs:
   #  serial: true
     steps:
       - IN: sample-script-4
-      - IN: triggertest3
+      - IN: triggertest4
       - TASK:
         - script: ./IN/sample-script-4/gitRepo/echo.sh
   
