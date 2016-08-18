@@ -1,10 +1,10 @@
 triggers:
   - name: triggertest3
     type: trigger
-    pointer:
+    version:
       counter: 272
       
   - name: triggertest4
     type: trigger
-    pointer:
+    version:
       counter: 0
