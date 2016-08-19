@@ -1,7 +1,7 @@
 jobs:
   - name: runShk7
     type: runSh
-    serial: true
+  #  serial: true
     steps:
       - IN: sample-script-3
      # - IN: env
