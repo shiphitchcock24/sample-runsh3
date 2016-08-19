@@ -2,12 +2,12 @@ triggers:
   - name: triggertest3
     type: trigger
     version:
-      counter: 274
+      counter: 273
       
   - name: triggertest4
     type: trigger
     version:
-      counter: 421
+      counter: 422
 
   - name: triggertest5
     type: trigger
