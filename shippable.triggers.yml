@@ -7,7 +7,7 @@ triggers:
   - name: triggertest4
     type: trigger
     version:
-      counter: 428
+      counter: 429
 
   - name: triggertest5
     type: trigger
