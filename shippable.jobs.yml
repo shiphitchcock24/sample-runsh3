@@ -30,13 +30,13 @@ jobs:
       - script: echo 'failure runSh'
       - NOTIFY: mySlack2
       
-   - name: runShk8
-     type: runSh
+  - name: runShk8
+    type: runSh
    #  serial: true
-     steps:
-       - IN: sample-script-4
-       - IN: triggertest4
-       - TASK:
-         - script: ./IN/sample-script-4/gitRepo/echo.sh
+    steps:
+      - IN: sample-script-4
+      - IN: triggertest4
+      - TASK:
+        - script: ./IN/sample-script-4/gitRepo/echo.sh
   
  
