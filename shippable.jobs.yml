@@ -29,6 +29,7 @@ jobs:
       - script: echo 'testing1 failure'
       - script: echo 'failure runSh'
       - NOTIFY: mySlack2
+      - NOTIFY: myEmail2
       
   - name: runShk8
     type: runSh
