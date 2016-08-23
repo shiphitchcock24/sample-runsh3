@@ -24,7 +24,7 @@ jobs:
       - NOTIFY: mySlack2
       - script: echo 'infra test'
       - script: echo 'newtesting success'
-     # - script: ./IN/sample-script-3/gitRepo/echo.sh
+     # - script: build/IN/sample-script-3/gitRepo/echo.sh
     on_failure:
       - script: echo 'testing1 failure'
       - script: echo 'failure runSh'
